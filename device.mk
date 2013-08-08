@@ -148,6 +148,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.call_ring.multiple=0
 
+# Enable LTE
+PRODUCT_PROPERTY_OVERRIDES += \
+  telephony.lteOnGsmDevice=1 \
+  ro.telephony.default_network=9 \
+  ro.ril.def.preferred.network=9
+
 #Upto 3 layers can go through overlays
 PRODUCT_PROPERTY_OVERRIDES += persist.hwc.mdpcomp.enable=true
 
