@@ -25,3 +25,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occa
 
 # Enable Torch
 PRODUCT_PACKAGES += Torch
+
+# Use Google Dialer in place of AOSP
+TARGET_USE_GOOGLE_DIALER := true
