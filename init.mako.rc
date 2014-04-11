@@ -281,8 +281,6 @@ on post-fs-data
     write /dev/cpuctl/apps/cpu.notify_on_migrate 1
 
     # Hardware tunables
-    write /sys/kernel/fast_charge/fast_charge_level 1500
-    write /sys/kernel/fast_charge/force_fast_charge 1
     chown root system /sys/class/timed_output/vibrator/amp
     chown root system /sys/devices/platform/kcal_ctrl.0/kcal
     chown root system /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
